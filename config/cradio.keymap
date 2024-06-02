@@ -145,10 +145,10 @@
 
         Fx_and_Co {
             bindings = <
-&none  &none       &kp LEFT_GUI  &kp CAPSLOCK  &kp C_POWER    &none  &kp F1  &kp F2   &kp F3   &kp F4
-&none  &kp DELETE  &kp ESC       &kp TAB       &kp C_SLEEP    &none  &kp F5  &kp F6   &kp F7   &kp F8
-&none  &kp LC(X)   &kp LS(INS)   &kp LC(INS)   &kp LC(D)      &none  &kp F9  &kp F10  &kp F11  &kp F12
-                                 &trans        &trans         &none  &none
+&none  &none       &kp LEFT_GUI  &kp CAPSLOCK  &kp C_POWER    &kp C_VOL_UP       &kp F1  &kp F2   &kp F3   &kp F4
+&none  &kp DELETE  &kp ESC       &kp TAB       &kp C_SLEEP    &kp C_VOLUME_DOWN  &kp F5  &kp F6   &kp F7   &kp F8
+&none  &kp LC(X)   &kp LS(INS)   &kp LC(INS)   &kp LC(D)      &kp C_MUTE         &kp F9  &kp F10  &kp F11  &kp F12
+                                 &trans        &trans         &none              &none
             >;
         };
 
