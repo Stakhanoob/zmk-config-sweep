@@ -155,7 +155,7 @@
         Gest_keyboard {
             bindings = <
 &sys_reset   &trans  &trans  &trans      &bt BT_SEL 0    &none   &trans  &trans  &trans  &sys_reset
-&bootloader  &trans  &trans  &trans      &bt BT_SEL 1    &none   &tog 0  &tog 4  &trans  &bootloader
+&bootloader  &trans  &trans  &trans      &bt BT_SEL 1    &none   &to 0   &to 4   &trans  &bootloader
 &trans       &trans  &trans  &bt BT_CLR  &bt BT_SEL 2    &none   &trans  &trans  &trans  &trans
                              &trans      &trans          &trans  &trans
             >;
