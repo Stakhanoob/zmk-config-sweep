@@ -88,7 +88,7 @@
             label = "HOME_ROW_LAYER_THUMB";
             flavor = "tap-preferred";
             hold-trigger-on-release; // wait for other home row mods
-            tapping-term-ms = <250>;
+            tapping-term-ms = <225>;
             quick-tap-ms = <250>;
 
             //require-prior-idle-ms = <170>;
