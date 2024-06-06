@@ -33,9 +33,9 @@
 
         hml: hml {
             compatible = "zmk,behavior-hold-tap";
-            flavor = "balanced";
+            flavor = "tap-preferred";
             hold-trigger-on-release;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <250>;
             quick-tap-ms = <250>;
 
             //require-prior-idle-ms = <170>;
@@ -49,9 +49,9 @@
 
         hmr: hmr {
             compatible = "zmk,behavior-hold-tap";
-            flavor = "balanced";
+            flavor = "tap-preferred";
             hold-trigger-on-release;
-            tapping-term-ms = <300>;
+            tapping-term-ms = <250>;
             quick-tap-ms = <250>;
 
             //require-prior-idle-ms = <170>;
