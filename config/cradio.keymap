@@ -118,6 +118,19 @@
             tapping-term-ms = <400>;
             flavor = "tap-preferred";
         };
+
+        hmlL: hmlL {
+            compatible = "zmk,behavior-hold-tap";
+            flavor = "tap-preferred";
+            hold-trigger-on-release;
+            tapping-term-ms = <250>;
+            quick-tap-ms = <250>;
+            #binding-cells = <2>;
+            bindings = <&mo>, <&kp>;
+
+            require-prior-idle-ms = <160>;
+            label = "HMLL";
+        };
     };
 
     combos { compatible = "zmk,combos"; };
@@ -128,7 +141,7 @@
         default_layer {
             bindings = <
 &kp Q        &kp W        &hml LALT E   &kp R                 &kp T                   &kp Y            &kp U                              &hmr LALT I   &kp O        &kp P
-&hml LGUI A  &hml RALT S  &hml LCTRL D  &hml LSHFT F          &kp G                   &kp H            &hmr RSHFT J                       &hmr RCTRL K  &hmr RALT L  &kp SEMI
+&hml LGUI A  &hml RALT S  &hml LCTRL D  &hmlL 1 F             &kp G                   &kp H            &hmlL 1 J                          &hmr RCTRL K  &hmr RALT L  &kp SEMI
 &kp Z        &kp X        &kp C         &kp V                 &kp B                   &kp N            &kp M                              &kp COMMA     &kp DOT      &kp FSLH
                                         &layer_thumb 1 SPACE  &layer_thumb 2 ENTER    &kp RIGHT_SHIFT  &tapmod_thumb RIGHT_ALT BACKSPACE
             >;
