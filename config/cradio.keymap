@@ -16,8 +16,6 @@
 // Using layer taps on thumbs, having quick tap as well helps w/ repeating space/backspace
 //&lt { quick-tap-ms = <200>; };
 
-&sk { quick-release; };
-
 / {
     behaviors {
         //#ifndef HOMEY_HOLDING_TYPE
@@ -38,7 +36,7 @@
             flavor = "tap-preferred";
             hold-trigger-on-release;
             tapping-term-ms = <250>;
-            quick-tap-ms = <250>;
+            quick-tap-ms = <150>;
 
             //require-prior-idle-ms = <170>;
 
@@ -56,7 +54,7 @@
             flavor = "tap-preferred";
             hold-trigger-on-release;
             tapping-term-ms = <250>;
-            quick-tap-ms = <250>;
+            quick-tap-ms = <150>;
 
             //require-prior-idle-ms = <170>;
 
@@ -74,8 +72,8 @@
             label = "TAP_MOD_THUMB";
             flavor = "tap-preferred";
             hold-trigger-on-release; // wait for other home row mods
-            tapping-term-ms = <300>;
-            quick-tap-ms = <250>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <150>;
 
             //require-prior-idle-ms = <170>;
 
@@ -90,7 +88,7 @@
             label = "HOME_ROW_LAYER_THUMB";
             flavor = "balanced";
             hold-trigger-on-release; // wait for other home row mods
-            tapping-term-ms = <300>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <250>;
 
             //require-prior-idle-ms = <170>;
@@ -145,7 +143,7 @@
 &kp Q  &kp W        &hml LALT E   &kp R                 &kp T                   &kp Y            &kp U                              &hmr LALT I   &kp O        &kp P
 &kp A  &hml RALT S  &hml LCTRL D  &hml LSHIFT F         &kp G                   &kp H            &hmr RSHIFT J                      &hmr RCTRL K  &hmr RALT L  &kp SEMI
 &kp Z  &kp X        &kp C         &kp V                 &kp B                   &kp N            &kp M                              &kp COMMA     &kp DOT      &kp FSLH
-                                  &layer_thumb 1 SPACE  &layer_thumb 2 ENTER    &sk RIGHT_SHIFT  &tapmod_thumb RIGHT_ALT BACKSPACE
+                                  &layer_thumb 1 SPACE  &layer_thumb 2 ENTER    &kp RIGHT_SHIFT  &tapmod_thumb RIGHT_ALT BACKSPACE
             >;
         };
 
