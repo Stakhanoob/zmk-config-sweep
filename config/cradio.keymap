@@ -35,7 +35,7 @@
             compatible = "zmk,behavior-hold-tap";
             flavor = "tap-preferred";
             hold-trigger-on-release;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <250>;
 
             //require-prior-idle-ms = <170>;
@@ -53,7 +53,7 @@
             compatible = "zmk,behavior-hold-tap";
             flavor = "tap-preferred";
             hold-trigger-on-release;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <250>;
 
             //require-prior-idle-ms = <170>;
@@ -150,8 +150,8 @@
         arrow_and_num {
             bindings = <
 &kp HOME         &kp PG_UP         &kp UP       &kp PAGE_DOWN      &kp END          &kp KP_NUM    &kp N4  &kp N5  &kp N6  &kp INSERT
-&kp LC(LA(DEL))  &kp LEFT          &kp DOWN     &kp RIGHT          &kp PSCRN        &kp KP_DOT    &kp N1  &kp N2  &kp N3  &kp KP_MINUS
-&kp LC(LG(F4))   &kp LC(LG(LEFT))  &kp LG(TAB)  &kp LC(LG(RIGHT))  &kp LC(LG(D))    &kp KP_SLASH  &kp N7  &kp N8  &kp N9  &kp KP_MULTIPLY
+&kp LC(LA(DEL))  &kp LEFT          &kp DOWN     &kp RIGHT          &kp PSCRN        &kp KP_SLASH  &kp N1  &kp N2  &kp N3  &kp KP_MINUS
+&kp LC(LG(F4))   &kp LC(LG(LEFT))  &kp LG(TAB)  &kp LC(LG(RIGHT))  &kp LC(LG(D))    &kp KP_DOT    &kp N7  &kp N8  &kp N9  &kp KP_MULTIPLY
                                                 &trans             &trans           &trans        &kp N0
             >;
         };
