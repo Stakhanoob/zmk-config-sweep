@@ -159,7 +159,7 @@
         Fx_and_Co {
             bindings = <
 &none  &none      &kp LEFT_GUI  &kp CAPSLOCK  &kp C_POWER    &kp C_VOL_UP       &kp F1  &kp F2   &kp F3   &kp F4
-&none  &none      &kp DEL       &kp ESC       &kp C_SLEEP    &kp C_VOLUME_DOWN  &kp F5  &kp F6   &kp F7   &kp F8
+&none  &kp DEL    &kp ESC       &kp TAB       &kp C_SLEEP    &kp C_VOLUME_DOWN  &kp F5  &kp F6   &kp F7   &kp F8
 &none  &kp LC(X)  &kp LS(INS)   &kp LC(INS)   &kp LC(D)      &kp C_MUTE         &kp F9  &kp F10  &kp F11  &kp F12
                                 &trans        &trans         &trans             &trans
             >;
