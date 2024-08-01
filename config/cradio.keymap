@@ -75,9 +75,9 @@
         tapmod_thumb: miryoku_tapmod_thumb {
             compatible = "zmk,behavior-hold-tap";
             label = "TAP_MOD_THUMB";
-            flavor = "tap-preferred";
+            flavor = "hold-preferred";
             hold-trigger-on-release; // wait for other home row mods
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <250>;
 
             //require-prior-idle-ms = <170>;
@@ -91,9 +91,9 @@
         layer_thumb: miryoku_home_row_layer_thumb {
             compatible = "zmk,behavior-hold-tap";
             label = "HOME_ROW_LAYER_THUMB";
-            flavor = "balanced";
+            flavor = "tap-preferred";
             hold-trigger-on-release; // wait for other home row mods
-            tapping-term-ms = <250>;
+            tapping-term-ms = <200>;
             quick-tap-ms = <250>;
 
             //require-prior-idle-ms = <170>;
