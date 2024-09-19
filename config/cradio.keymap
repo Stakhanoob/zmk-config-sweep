@@ -179,10 +179,10 @@
 
         Fx_and_Co {
             bindings = <
-&none  &none      &kp LEFT_GUI  &kp CAPS     &kp C_POWER    &kp C_VOL_UP       &kp F1         &kp F2   &kp F3   &kp F4
-&none  &kp DEL    &kp ESC       &kp LG(V)    &kp C_SLEEP    &kp C_VOLUME_DOWN  &kp F5         &kp F6   &kp F7   &kp F8
-&none  &kp LC(X)  &kp LC(INS)   &kp LS(INS)  &kp LC(D)      &kp C_MUTE         &kp F9         &kp F10  &kp F11  &kp F12
-                                &trans       &trans         &trans             &kp BACKSPACE
+&none  &none      &kp LEFT_GUI  &kp CAPS     &none        &kp C_VOL_UP       &kp F1         &kp F2   &kp F3   &kp F4
+&none  &kp DEL    &kp ESC       &kp TAB      &kp LG(V)    &kp C_VOLUME_DOWN  &kp F5         &kp F6   &kp F7   &kp F8
+&none  &kp LC(X)  &kp LC(INS)   &kp LS(INS)  &kp LC(D)    &kp C_MUTE         &kp F9         &kp F10  &kp F11  &kp F12
+                                &trans       &trans       &trans             &kp BACKSPACE
             >;
         };
 
