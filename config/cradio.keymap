@@ -118,7 +118,7 @@
             compatible = "zmk,behavior-hold-tap";
             flavor = "tap-preferred";
             hold-trigger-on-release;
-            tapping-term-ms = <275>;
+            tapping-term-ms = <250>;
             quick-tap-ms = <250>;
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
@@ -131,7 +131,7 @@
             compatible = "zmk,behavior-hold-tap";
             flavor = "tap-preferred";
             hold-trigger-on-release;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <225>;
             quick-tap-ms = <250>;
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
@@ -144,7 +144,7 @@
             compatible = "zmk,behavior-hold-tap";
             flavor = "tap-preferred";
             hold-trigger-on-release;
-            tapping-term-ms = <180>;
+            tapping-term-ms = <175>;
             quick-tap-ms = <250>;
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
