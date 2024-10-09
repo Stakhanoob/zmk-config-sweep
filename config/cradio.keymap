@@ -170,19 +170,19 @@
 
         arrow_and_num {
             bindings = <
-&kp HOME         &kp PG_UP         &kp UP       &kp PAGE_DOWN      &kp END          &kp KP_PLUS   &kp N4  &kp N5  &kp N6  &kp INSERT
-&kp LC(LA(DEL))  &kp LEFT          &kp DOWN     &kp RIGHT          &kp PSCRN        &kp KP_SLASH  &kp N1  &kp N2  &kp N3  &kp KP_MINUS
-&kp LC(LG(F4))   &kp LC(LG(LEFT))  &kp LG(TAB)  &kp LC(LG(RIGHT))  &kp LC(LG(D))    &kp KP_DOT    &kp N7  &kp N8  &kp N9  &kp KP_MULTIPLY
-                                                &trans             &trans           &kp KP_NUM    &kp N0
+&kp HOME                                          &kp PG_UP                 &hrm_majeur LALT UP     &kp PAGE_DOWN                &kp END          &kp KP_PLUS   &kp N4                &hrm_majeur LEFT_ALT N5  &kp N6                       &kp INSERT
+&hrm_auriculaire LC(LA(LEFT_WIN)) LC(LA(DELETE))  &hrm_annulaire RALT LEFT  &hrm_majeur LCTRL DOWN  &hrm_index LEFT_SHIFT RIGHT  &kp PSCRN        &kp KP_SLASH  &hrm_index LSHIFT N1  &hrm_majeur LCTRL N2     &hrm_annulaire RIGHT_ALT N3  &hrm_auriculaire LEFT_WIN KP_MINUS
+&kp LC(LG(F4))                                    &kp LC(LG(LEFT))          &kp LG(TAB)             &kp LC(LG(RIGHT))            &kp LC(LG(D))    &kp KP_DOT    &kp N7                &kp N8                   &kp N9                       &kp KP_MULTIPLY
+                                                                                                    &trans                       &trans           &kp KP_NUM    &kp N0
             >;
         };
 
         Fx_and_Co {
             bindings = <
-&kp CAPSLOCK  &none      &kp LEFT_GUI  &none        &kp C_POWER    &kp C_VOL_UP       &kp F1         &kp F2   &kp F3   &kp F4
-&caps_word    &kp DEL    &kp ESC       &kp TAB      &kp C_SLEEP    &kp C_VOLUME_DOWN  &kp F5         &kp F6   &kp F7   &kp F8
-&none         &kp LC(X)  &kp LC(INS)   &kp LS(INS)  &kp LC(D)      &kp C_MUTE         &kp F9         &kp F10  &kp F11  &kp F12
-                                       &trans       &trans         &trans             &kp BACKSPACE
+&kp CAPSLOCK                        &none                            &hrm_majeur LEFT_ALT LEFT_WIN  &none                  &kp C_POWER    &kp C_VOL_UP       &kp F1                    &hrm_majeur LEFT_ALT F2  &kp F3                       &kp F4
+&hrm_auriculaire LEFT_WIN CAPSLOCK  &hrm_annulaire RIGHT_ALT DELETE  &hrm_majeur LCTRL ESCAPE       &hrm_index LSHIFT TAB  &kp C_SLEEP    &kp C_VOLUME_DOWN  &hrm_index LEFT_SHIFT F5  &hrm_majeur LCTRL F6     &hrm_annulaire RIGHT_ALT F7  &hrm_auriculaire LEFT_WIN F8
+&none                               &kp LC(X)                        &kp LC(INS)                    &kp LS(INS)            &kp LC(D)      &kp C_MUTE         &kp F9                    &kp F10                  &kp F11                      &kp F12
+                                                                                                    &trans                 &trans         &trans             &kp BACKSPACE
             >;
         };
 
