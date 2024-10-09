@@ -110,7 +110,7 @@
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
 
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <175>;
             label = "HRM_AURICULAIRE";
         };
 
@@ -118,12 +118,12 @@
             compatible = "zmk,behavior-hold-tap";
             flavor = "tap-preferred";
             hold-trigger-on-release;
-            tapping-term-ms = <250>;
+            tapping-term-ms = <300>;
             quick-tap-ms = <250>;
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
 
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <175>;
             label = "HRM_ANNULAIRE";
         };
 
@@ -131,12 +131,12 @@
             compatible = "zmk,behavior-hold-tap";
             flavor = "tap-preferred";
             hold-trigger-on-release;
-            tapping-term-ms = <225>;
+            tapping-term-ms = <300>;
             quick-tap-ms = <250>;
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
 
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <175>;
             label = "HRM_MAJEUR";
         };
 
@@ -144,12 +144,12 @@
             compatible = "zmk,behavior-hold-tap";
             flavor = "tap-preferred";
             hold-trigger-on-release;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <300>;
             quick-tap-ms = <250>;
             #binding-cells = <2>;
             bindings = <&kp>, <&kp>;
 
-            require-prior-idle-ms = <150>;
+            require-prior-idle-ms = <175>;
             label = "HRM_INDEX";
         };
     };
