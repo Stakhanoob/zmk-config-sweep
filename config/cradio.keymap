@@ -161,10 +161,10 @@
 
         default_layer {
             bindings = <
-&kp Q                    &kp W                  &hrm_majeur LALT E   &kp R                 &kp T                   &kp Y                        &kp U                                &hrm_majeur LALT I   &kp O                  &kp P
-&hrm_auriculaire LCMD A  &hrm_annulaire RALT S  &hrm_majeur LCTRL D  &hrm_index LSHIFT F   &kp G                   &kp H                        &hrm_index RSHIFT J                  &hrm_majeur RCTRL K  &hrm_annulaire RALT L  &hrm_auriculaire LCMD SEMI
-&kp Z                    &kp X                  &kp C                &kp V                 &kp B                   &kp N                        &kp M                                &kp COMMA            &kp DOT                &kp FSLH
-                                                                     &layer_thumb 1 SPACE  &layer_thumb 2 ENTER    &tapmod_thumb RIGHT_ALT TAB  &tapmod_thumb RIGHT_SHIFT BACKSPACE
+&kp Q                    &kp W                  &hrm_majeur LALT E   &kp R                 &kp T                 &kp Y                          &kp U                                &hrm_majeur LALT I   &kp O                  &kp P
+&hrm_auriculaire LCMD A  &hrm_annulaire RALT S  &hrm_majeur LCTRL D  &hrm_index LSHIFT F   &kp G                 &kp H                          &hrm_index RSHIFT J                  &hrm_majeur RCTRL K  &hrm_annulaire RALT L  &hrm_auriculaire LCMD SEMI
+&kp Z                    &kp X                  &kp C                &kp V                 &kp B                 &kp N                          &kp M                                &kp COMMA            &kp DOT                &kp FSLH
+                                                                     &layer_thumb 1 SPACE  &layer_thumb 2 TAB    &tapmod_thumb RIGHT_ALT ENTER  &tapmod_thumb RIGHT_SHIFT BACKSPACE
             >;
         };
 
@@ -179,10 +179,10 @@
 
         Fx_and_Co {
             bindings = <
-&kp CAPSLOCK                        &none                            &hrm_majeur LEFT_ALT LEFT_WIN  &none                  &kp C_POWER    &kp C_VOL_UP       &kp F1                    &hrm_majeur LEFT_ALT F2  &kp F3                       &kp F4
-&hrm_auriculaire LEFT_WIN CAPSLOCK  &hrm_annulaire RIGHT_ALT DELETE  &hrm_majeur LCTRL ESCAPE       &hrm_index LSHIFT TAB  &kp C_SLEEP    &kp C_VOLUME_DOWN  &hrm_index LEFT_SHIFT F5  &hrm_majeur LCTRL F6     &hrm_annulaire RIGHT_ALT F7  &hrm_auriculaire LEFT_WIN F8
-&none                               &kp LC(X)                        &kp LC(INS)                    &kp LS(INS)            &kp LC(D)      &kp C_MUTE         &kp F9                    &kp F10                  &kp F11                      &kp F12
-                                                                                                    &trans                 &trans         &trans             &kp BACKSPACE
+&kp CAPSLOCK                        &none                            &hrm_majeur LEFT_ALT LEFT_WIN  &none                    &kp C_POWER    &kp C_VOL_UP       &kp F1                    &hrm_majeur LEFT_ALT F2  &kp F3                       &kp F4
+&hrm_auriculaire LEFT_WIN CAPSLOCK  &hrm_annulaire RIGHT_ALT DELETE  &hrm_majeur LCTRL ESCAPE       &hrm_index LSHIFT ENTER  &kp C_SLEEP    &kp C_VOLUME_DOWN  &hrm_index LEFT_SHIFT F5  &hrm_majeur LCTRL F6     &hrm_annulaire RIGHT_ALT F7  &hrm_auriculaire LEFT_WIN F8
+&none                               &kp LC(X)                        &kp LC(INS)                    &kp LS(INS)              &kp LC(D)      &kp C_MUTE         &kp F9                    &kp F10                  &kp F11                      &kp F12
+                                                                                                    &trans                   &trans         &trans             &kp BACKSPACE
             >;
         };
 
