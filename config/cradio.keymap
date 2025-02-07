@@ -170,7 +170,7 @@
 
         arrow_and_num {
             bindings = <
-&kp HOME                                          &kp PG_UP                 &hrm_majeur LALT UP     &kp PAGE_DOWN                &kp END          &kp KP_PLUS   &kp N4                &hrm_majeur LEFT_ALT N5  &kp N6                       &kp INSERT
+&kp PAGE_UP                                       &kp HOME                  &hrm_majeur LALT UP     &kp END                      &kp PAGE_DOWN    &kp KP_PLUS   &kp N4                &hrm_majeur LEFT_ALT N5  &kp N6                       &kp INSERT
 &hrm_auriculaire LC(LA(LEFT_WIN)) LC(LA(DELETE))  &hrm_annulaire RALT LEFT  &hrm_majeur LCTRL DOWN  &hrm_index LEFT_SHIFT RIGHT  &kp PSCRN        &kp KP_SLASH  &hrm_index LSHIFT N1  &hrm_majeur LCTRL N2     &hrm_annulaire RIGHT_ALT N3  &hrm_auriculaire LEFT_WIN KP_MINUS
 &kp LC(LG(F4))                                    &kp LC(LG(LEFT))          &kp LG(TAB)             &kp LC(LG(RIGHT))            &kp LC(LG(D))    &kp KP_DOT    &kp N7                &kp N8                   &kp N9                       &kp KP_MULTIPLY
                                                                                                     &trans                       &trans           &kp KP_NUM    &kp N0
