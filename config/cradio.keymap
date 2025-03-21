@@ -179,9 +179,9 @@
 
         Fx_and_Co {
             bindings = <
-&kp CAPSLOCK  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp DELETE   &kp C_POWER    &kp C_VOL_UP       &kp F1         &kp F2   &kp F3   &kp F4
-&kp LEFT_WIN  &kp ESC         &kp LCTRL     &kp TAB      &kp ENTER      &kp C_VOLUME_DOWN  &kp F5         &kp F6   &kp F7   &kp F8
-&none         &kp LC(X)       &kp LC(INS)   &kp LS(INS)  &kp LG(V)      &kp C_MUTE         &kp F9         &kp F10  &kp F11  &kp F12
+&kp CAPSLOCK  &kp LEFT_ALT  &kp LEFT_SHIFT  &kp DELETE   &kp C_POWER    &kp C_VOL_UP       &kp F1         &kp F2   &kp F3   &kp F4
+&kp LEFT_WIN  &kp ESC       &kp LCTRL       &kp TAB      &kp ENTER      &kp C_VOLUME_DOWN  &kp F5         &kp F6   &kp F7   &kp F8
+&none         &kp LC(X)     &kp LC(INS)     &kp LS(INS)  &kp LG(V)      &kp C_MUTE         &kp F9         &kp F10  &kp F11  &kp F12
                                             &trans       &trans         &trans             &kp BACKSPACE
             >;
         };
